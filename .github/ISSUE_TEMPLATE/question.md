@@ -1,19 +1,18 @@
 ---
 name: Question
-about: Ask us for something
+about: Ask us something
+title: ""
 labels: question
+assignees: gammac0de
 ---
 
+<!-- ANNOTATIONS LIKE THIS WILL NOT BE VISIBLE IN YOUR TICKET -->
 
-<!-- Hey, annotations like this one will not be visible in your ticket, just ignore them all. -->
-
-
-### Your question
-
-<!-- WRITE HERE - REQUIRED -->
-
-
-### Additional references
-<!-- Any other context, related issues, pull requests or screenshots about this question. -->
+### Question
 
 <!-- WRITE HERE -->
+
+### Additional references
+<!-- Any other reference, related issues, pull requests or screenshots about this question. -->
+
+<!-- WRITE HERE - OPTIONAL -->

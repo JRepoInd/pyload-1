@@ -1,50 +1,35 @@
 ---
-name: Bug Report
+name: Bug Report (pyLoad Next)
 about: Create a report to help us improve
-labels: bug
+title: ""
+labels: pyLoad Next, bug
+assignees: gammac0de
 ---
 
+<!-- ANNOTATIONS LIKE THIS WILL NOT BE VISIBLE IN YOUR TICKET -->
 
-<!-- Hey, annotations like this one will not be visible in your ticket, just ignore them all. -->
-
-
-### Describe the problem
+### Description
 <!-- A clear and concise description of what the problem is. -->
 
-<!-- WRITE HERE - REQUIRED -->
-
-
-### Expected behavior
-<!-- A clear and concise description of what you expected to happen. -->
-
-<!-- WRITE HERE - REQUIRED -->
-
-
-### Actual behavior
-<!-- A clear and concise description of what actually happens. -->
-
-<!-- WRITE HERE - REQUIRED -->
-
-
-### To reproduce
-<!-- Steps to reproduce the behavior. -->
-
 <!-- WRITE HERE -->
-
 
 ### Debug log
-<!-- Enable `Debug Mode` in pyload's `General` settings and put it here. -->
+<!-- Remember to enable `Debug Mode` in pyload's general settings. -->
 
-<!-- WRITE HERE -->
+<!-- WRITE IN HERE -->
 
+```
 
-### Screenshots
-<!-- If applicable, add screenshots to help explain your problem. -->
+```
 
-<!-- WRITE HERE -->
-
+<!-- WRITE IN HERE -->
 
 ### Additional references
-<!-- Any other context, related issues or pull requests about the problem. -->
+<!-- Any other reference, related issues or pull requests about this report. -->
 
-<!-- WRITE HERE -->
+<!-- WRITE HERE - OPTIONAL -->
+
+### Screenshots
+<!-- Any screenshot that can help to explain your problem. -->
+
+<!-- WRITE HERE - OPTIONAL -->

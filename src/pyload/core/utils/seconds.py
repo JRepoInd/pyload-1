@@ -1,13 +1,10 @@
-# -*- coding: utf-8 -*-
-# AUTHOR: vuolter
-
 import datetime
 import time
 
 
 def compare(start, end):
-    start = (int(n) for n in start)
-    end = (int(n) for n in end)
+    start = tuple(int(n) for n in start)
+    end = tuple(int(n) for n in end)
 
     if start == end:
         return True
@@ -26,13 +23,13 @@ def to_midnight(utc=None, strict=False):
     if utc is None:
         now = datetime.datetime.today()
     else:
-        now = datetime.datetime.utcnow() + datetime.timedelta(hours=utc)
+        now = datetime.datetime.now(datetime.timezone.utc) + datetime.timedelta(hours=utc)
 
     midnight = now.replace(
         hour=0, minute=0 if strict else 1, second=0, microsecond=0
     ) + datetime.timedelta(days=1)
 
-    return (midnight - now).seconds
+    return (midnight - now).total_seconds()
 
 
 def to_nexthour(strict=False):
@@ -40,4 +37,4 @@ def to_nexthour(strict=False):
     nexthour = now.replace(
         minute=0 if strict else 1, second=0, microsecond=0
     ) + datetime.timedelta(hours=1)
-    return (nexthour - now).seconds
+    return (nexthour - now).total_seconds()

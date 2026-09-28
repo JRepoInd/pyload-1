@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-# AUTHOR: vuolter
-
 import inspect
 import io
 import os

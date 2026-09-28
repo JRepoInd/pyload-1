@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-# AUTHOR: vuolter
-
 from collections.abc import MutableMapping
 
 from .base import InscDict

@@ -1,32 +1,24 @@
 ---
-name: Feature Request
-about: Suggest an idea for this project
-labels: 'feature request'
+name: Feature Request (pyLoad Next)
+about: Suggest an idea for pyLoad
+title: ""
+labels: pyLoad Next, feature request
+assignees: gammac0de
 ---
 
+<!-- ANNOTATIONS LIKE THIS WILL NOT BE VISIBLE IN YOUR TICKET -->
 
-<!-- Hey, annotations like this one will not be visible in your ticket, just ignore them all. -->
-
-
-### Describe the feature
+### Feature description
 <!-- A clear and concise description of what you're asking for. -->
 
-<!-- WRITE HERE - REQUIRED -->
-
-
-### Is this related to a problem?
-<!-- A clear and concise description of what the problem is. -->
-
 <!-- WRITE HERE -->
 
+### Problem description
+<!-- A description of the problem you ran into. -->
 
-### Describe alternatives you've considered
-<!-- A clear and concise description of any alternative solutions or features you've considered. -->
-
-<!-- WRITE HERE -->
-
+<!-- WRITE HERE - OPTIONAL -->
 
 ### Additional references
-<!-- Any other context, related issues, pull requests or screenshots about this request. -->
+<!-- Any other reference, related issues, pull requests or screenshots about this request. -->
 
-<!-- WRITE HERE -->
+<!-- WRITE HERE - OPTIONAL -->

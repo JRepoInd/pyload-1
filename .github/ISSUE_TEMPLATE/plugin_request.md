@@ -1,26 +1,24 @@
 ---
-name: Plugin Request
-about: Suggest a plugin for this project
-labels: 'plugin request'
+name: Plugin Request (pyLoad Next)
+about: Suggest a new plugin for pyLoad
+title: ""
+labels: pyLoad Next, plugin request
+assignees: gammac0de
 ---
 
+<!-- ANNOTATIONS LIKE THIS WILL NOT BE VISIBLE IN YOUR TICKET -->
 
-<!-- Hey, annotations like this one will not be visible in your ticket, just ignore them all. -->
-
-
-### Describe the plugin
+### Description
 <!-- A clear and concise description of what you're asking for. -->
 
-<!-- WRITE HERE - REQUIRED -->
-
+<!-- WRITE HERE -->
 
 ### Sample resources
-<!-- If applicable, add links to the resources to use as samples for testing the plugin. -->
+<!-- Any sample link that can be used to test the plugin. -->
 
-<!-- WRITE HERE -->
-
+<!-- WRITE HERE - OPTIONAL -->
 
 ### Additional references
-<!-- Any other context, related issues, pull requests or screenshots about this request. -->
+<!-- Any other reference, related issues, pull requests or screenshots about this request. -->
 
-<!-- WRITE HERE -->
+<!-- WRITE HERE - OPTIONAL -->
